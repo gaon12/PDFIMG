@@ -1,0 +1,32 @@
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(1, 0, 0, 0),  # 파일 버전 (메이저, 마이너, 수정, 빌드)
+        prodvers=(1, 0, 0, 0),  # 제품 버전
+        mask=0x3f,
+        flags=0x0,
+        OS=0x4,
+        fileType=0x1,
+        subtype=0x0,
+        date=(0, 0)
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    '040904b0',  # 언어 및 문자셋 (미국 영어)
+                    [
+                        StringStruct('CompanyName', 'Jeong Gaon'),  # 제작사
+                        StringStruct('FileDescription', 'Convert PDF to Image!'),  # 프로그램 설명
+                        StringStruct('FileVersion', '1.0.0.0'),  # 파일 버전
+                        StringStruct('InternalName', 'PDFIMG'),  # 내부 이름
+                        StringStruct('LegalCopyright', '© 2024~ Jeong Gaon'),  # 저작권
+                        StringStruct('OriginalFilename', 'main.exe'),  # 원본 파일 이름
+                        StringStruct('ProductName', 'PDFIMG'),  # 제품 이름
+                        StringStruct('ProductVersion', '1.0.0.0')  # 제품 버전
+                    ]
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct('Translation', [1033, 1200])])  # 언어 정보
+    ]
+)
